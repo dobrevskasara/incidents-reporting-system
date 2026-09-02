@@ -62,7 +62,7 @@ New-Item database\database.sqlite -ItemType File -Force
 php artisan serve
 ```
 
-Then open `http://localhost:8000/reports`.
+Then open `http://127.0.0.1:8000/reports`.
 
 ## Core workflow
 
@@ -79,6 +79,3 @@ Then open `http://localhost:8000/reports`.
 * `/login`, `/register` — login and registration
 * `/logout` — log out (POST, requires login)
 
-## License
-
-MIT
